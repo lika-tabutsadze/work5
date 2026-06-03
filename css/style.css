@@ -164,3 +164,103 @@ h1 {
     gap: 32px;
 
 }
+
+footer {
+    display: flex;
+    background-color: #53535354;
+    height: 460px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer {
+    display: flex;
+    width: 1128px;
+    height: 223px;
+    justify-content: space-between;
+}
+
+.ft-about {
+    display: flex;
+    width: 318px;
+    height: 221px;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.ft-links {
+    width: 136px;
+    height: 223px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links-h5 {
+    width: 136px;
+    height: 24px;
+    color: #1E1E1E;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 51px;
+    line-height: 100%;
+}
+
+.footer-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-a {
+    color: #535353;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.ft-services {
+    display: flex;
+    width: 199px;
+    height: 223px;
+    flex-direction: column;
+}
+
+.serv-h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1E1E1E;
+    margin: 0px 108px 55px 6px;
+}
+
+.serv-list {
+    color: #535353;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ft-lang {
+    display: flex;
+    flex-direction: column;
+    width: 107px;
+    height: 127.449951171875px;
+}
+
+.lang-h5 {
+    margin-bottom: 58.45px;
+    font-size: 20px;
+    color: #1E1E1E;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: #054A68;
+    width: 80px;
+    height: 45px;
+    gap: 10px;
+    padding: 14px 16px ;
+    color: #FFFFFF;
+}
